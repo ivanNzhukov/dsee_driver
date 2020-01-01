@@ -8,3 +8,6 @@ D:\video\my_video.mp4
 D:\video\22.12.mp4
 
 with extensions: *.mp4, *.jpg, *.png, *.bmp 
+
+
+Drivers for DSEE devices and manual you can find on www.dseelab.com
