@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsee.controllers.ImageController">
+    <left>
+        <Button id="record-sales" fx:id="btnPrevious" mnemonicParsing="false" stylesheets="@../css/button.css" text="Previous" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+        </Button>
+    </left>
+    <right>
+        <Button id="record-sales" fx:id="btnNext" mnemonicParsing="false" stylesheets="@../css/button.css" text="Next" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+        </Button>
+    </right>
+    <bottom>
+        <Button id="record-sales" fx:id="btnPlay" mnemonicParsing="false" stylesheets="@../css/button.css" text="Play" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+        </Button>
+    </bottom>
+    <center>
+        <ImageView fx:id="view" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+        </ImageView>
+    </center>
+</BorderPane>
