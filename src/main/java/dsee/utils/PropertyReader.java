@@ -25,7 +25,7 @@ public class PropertyReader {
                             fileList.add(new File(allLine));
                         }
                     } catch (Exception e) {
-                        throw new Exception("Не удалось добавить файл " + allLine + "\n");
+                        throw new Exception("Can not add file " + allLine + "\n");
                     }
                 }
             }

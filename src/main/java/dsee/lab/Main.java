@@ -214,7 +214,7 @@ public class Main extends Application {
             ((ImageView) view).setImage(image);
             mainPane = imagePane;
         } catch (Exception e) {
-            textArea.appendText(" Не удалось прочитать картинку \n");
+            textArea.appendText(" Can not read image \n");
         }
     }
 
@@ -228,7 +228,7 @@ public class Main extends Application {
             ((MediaView) view).setMediaPlayer(player);
             mainPane = videoPane;
         } catch (Exception e) {
-            textArea.appendText(" Не удалось воспроизвести видео \n");
+            textArea.appendText("  Can not read video  \n");
         }
     }
 
@@ -323,7 +323,7 @@ public class Main extends Application {
         } else if (filename.endsWith(".jpg") || filename.endsWith(".png") || filename.endsWith(".bmp")) {
             return "image";
         } else {
-            throw new Exception("Can not get file " + file.getPath() + " \n");
+            throw new Exception("Can not get or open file " + file.getPath() + " \n");
         }
     }
 }
